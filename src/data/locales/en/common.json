@@ -1,0 +1,26 @@
+{
+    "translation": {
+        "donate": "Buy me a coffee",
+        "title": "Image Randomizer",
+        "subtitle": "Upload images and roll",
+
+        "upload_subtitle": "Drag & drop images",
+        "upload_button": "browse",
+        "drag_images": "Drag images here",
+
+        "roll_no_images": "Upload images first",
+        "roll_with_images": "Press roll",
+
+        "roll": "Roll",
+        "rolling": "Rolling...",
+
+        "image_pool": "Image pool",
+        "remove": "Remove",
+
+        "cycle": "Cycle",
+        "cycles_completed": "cycles completed",
+
+        "images_left": "images left before reshuffle",
+        "rolls": "rolls"
+    }
+}

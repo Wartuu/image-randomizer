@@ -1,0 +1,26 @@
+{
+    "translation": {
+        "donate": "Kauf mir einen Kaffee",
+        "title": "Bild-Zufallsgenerator",
+        "subtitle": "Bilder hochladen und losen",
+
+        "upload_subtitle": "Bilder hierher ziehen",
+        "upload_button": "durchsuchen",
+        "drag_images": "Bilder hier ablegen",
+
+        "roll_no_images": "Lade zuerst Bilder hoch",
+        "roll_with_images": "Drücke „Losen“",
+
+        "roll": "Losen",
+        "rolling": "Wird ausgelost...",
+
+        "image_pool": "Bildpool",
+        "remove": "Entfernen",
+
+        "cycle": "Zyklus",
+        "cycles_completed": "abgeschlossene Zyklen",
+
+        "images_left": "Bilder bis zur Neumischung",
+        "rolls": "Ziehungen"
+    }
+}

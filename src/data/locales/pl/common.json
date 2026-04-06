@@ -1,0 +1,26 @@
+{
+    "translation": {
+        "donate": "Postaw mi kawę",
+        "title": "Losowanie obrazów",
+        "subtitle": "Wgraj obrazy i losuj",
+
+        "upload_subtitle": "Przeciągnij i upuść obrazy",
+        "upload_button": "przeglądaj",
+        "drag_images": "Upuść obrazy tutaj",
+
+        "roll_no_images": "Najpierw wgraj obrazy",
+        "roll_with_images": "Kliknij losuj",
+
+        "roll": "Losuj",
+        "rolling": "Losowanie...",
+
+        "image_pool": "Pula obrazów",
+        "remove": "Usuń",
+
+        "cycle": "Cykl",
+        "cycles_completed": "ukończonych cykli",
+
+        "images_left": "obrazów do przetasowania",
+        "rolls": "losowań"
+    }
+}
