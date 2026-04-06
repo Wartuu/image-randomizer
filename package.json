@@ -1,12 +1,14 @@
 {
     "name": "image-randomizer",
     "private": true,
+    "homepage": "https://wartuu.github.io/image-randomizer",
     "version": "0.0.0",
     "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "tsc -b && vite build",
         "lint": "eslint .",
+        "deploy": "gh-pages -d dist",
         "preview": "vite preview"
     },
     "dependencies": {
@@ -33,6 +35,7 @@
         "eslint": "^9.39.4",
         "eslint-plugin-react-hooks": "^7.0.1",
         "eslint-plugin-react-refresh": "^0.5.2",
+        "gh-pages": "^6.3.0",
         "globals": "^17.4.0",
         "prettier": "^3.8.1",
         "typescript": "~6.0.2",
