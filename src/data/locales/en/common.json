@@ -21,6 +21,55 @@
         "cycles_completed": "cycles completed",
 
         "images_left": "images left before reshuffle",
-        "rolls": "rolls"
+        "rolls": "rolls",
+
+        "or": "or",
+        "usePreset": "Use preset",
+        "packs": "Preset packs",
+        "imagesCount": "{{count}} images",
+
+        "cards": {
+            "format": "{{rank}} of {{suit}}",
+            "suits": {
+                "clubs": "Clubs",
+                "diamonds": "Diamonds",
+                "hearts": "Hearts",
+                "spades": "Spades"
+            },
+            "ranks": {
+                "ace": "Ace",
+                "jack": "Jack",
+                "queen": "Queen",
+                "king": "King"
+            }
+        },
+        "pack-names": {
+            "cards": "Playing Cards",
+            "tarot": "Tarot Cards"
+        },
+        "tarot": {
+            "fool": "The Fool",
+            "magician": "The Magician",
+            "highPriestess": "The High Priestess",
+            "empress": "The Empress",
+            "emperor": "The Emperor",
+            "hierophant": "The Hierophant",
+            "lovers": "The Lovers",
+            "chariot": "The Chariot",
+            "strength": "Strength",
+            "hermit": "The Hermit",
+            "wheel": "Wheel of Fortune",
+            "justice": "Justice",
+            "hangedMan": "The Hanged Man",
+            "death": "Death",
+            "temperance": "Temperance",
+            "devil": "The Devil",
+            "tower": "The Tower",
+            "star": "The Star",
+            "moon": "The Moon",
+            "sun": "The Sun",
+            "judgement": "Judgement",
+            "world": "The World"
+        }
     }
 }

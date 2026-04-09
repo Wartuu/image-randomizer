@@ -21,6 +21,55 @@
         "cycles_completed": "abgeschlossene Zyklen",
 
         "images_left": "Bilder bis zur Neumischung",
-        "rolls": "Ziehungen"
+        "rolls": "Ziehungen",
+
+        "or": "oder",
+        "usePreset": "Preset verwenden",
+        "packs": "Preset-Pakete",
+        "imagesCount": "{{count}} Bilder",
+
+        "cards": {
+            "format": "{{rank}} von {{suit}}",
+            "suits": {
+                "clubs": "Kreuz",
+                "diamonds": "Karo",
+                "hearts": "Herz",
+                "spades": "Pik"
+            },
+            "ranks": {
+                "ace": "Ass",
+                "jack": "Bube",
+                "queen": "Dame",
+                "king": "König"
+            }
+        },
+        "pack-names": {
+            "cards": "Spielkarten",
+            "tarot": "Tarotkarten"
+        },
+        "tarot": {
+            "fool": "Der Narr",
+            "magician": "Der Magier",
+            "highPriestess": "Die Hohepriesterin",
+            "empress": "Die Kaiserin",
+            "emperor": "Der Kaiser",
+            "hierophant": "Der Hierophant",
+            "lovers": "Die Liebenden",
+            "chariot": "Der Wagen",
+            "strength": "Die Stärke",
+            "hermit": "Der Eremit",
+            "wheel": "Rad des Schicksals",
+            "justice": "Die Gerechtigkeit",
+            "hangedMan": "Der Gehängte",
+            "death": "Der Tod",
+            "temperance": "Die Mäßigkeit",
+            "devil": "Der Teufel",
+            "tower": "Der Turm",
+            "star": "Der Stern",
+            "moon": "Der Mond",
+            "sun": "Die Sonne",
+            "judgement": "Das Gericht",
+            "world": "Die Welt"
+        }
     }
 }

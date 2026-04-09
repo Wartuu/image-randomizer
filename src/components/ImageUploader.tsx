@@ -3,6 +3,7 @@ import { Box, Typography, Button } from "@mui/material";
 import { motion } from "framer-motion";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
 import { useTranslation } from "react-i18next";
+import { PresetSelector } from "./PresetSelector";
 
 interface Props {
     onUpload: (files: File[]) => void;
@@ -65,6 +66,21 @@ export function ImageUploader({ onUpload }: Props) {
                     onChange={(e) => handle(e.target.files)}
                 />
             </Button>
+
+            <Box
+                sx={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    gap: 1,
+                    mt: 0.5,
+                }}
+            >
+                <Typography variant="caption" color="text.disabled">
+                    {t("or")}
+                </Typography>
+                <PresetSelector addImages={onUpload} />
+            </Box>
         </Box>
     );
 }

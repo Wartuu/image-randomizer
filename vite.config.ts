@@ -11,4 +11,31 @@ export default defineConfig({
             "@": path.resolve(__dirname, "./src"),
         },
     },
+
+    build: {
+        rollupOptions: {
+            output: {
+                manualChunks(id: string) {
+                    if (id.includes("node_modules/react")) {
+                        return "react";
+                    }
+                    if (
+                        id.includes("node_modules/@mui/material") ||
+                        id.includes("node_modules/@mui/icons-material") ||
+                        id.includes("node_modules/@emotion/react") ||
+                        id.includes("node_modules/@emotion/styled")
+                    ) {
+                        return "mui";
+                    }
+                    if (
+                        id.includes("node_modules/i18next") ||
+                        id.includes("node_modules/react-i18next") ||
+                        id.includes("node_modules/i18next-browser-languagedetector")
+                    ) {
+                        return "i18n";
+                    }
+                },
+            },
+        },
+    },
 });

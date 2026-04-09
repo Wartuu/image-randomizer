@@ -21,6 +21,55 @@
         "cycles_completed": "ukończonych cykli",
 
         "images_left": "obrazów do przetasowania",
-        "rolls": "losowań"
+        "rolls": "losowań",
+
+        "or": "lub",
+        "usePreset": "Użyj presetu",
+        "packs": "Zestawy presetów",
+        "imagesCount": "{{count}} obrazów",
+
+        "cards": {
+            "format": "{{rank}} {{suit}}",
+            "suits": {
+                "clubs": "trefl",
+                "diamonds": "karo",
+                "hearts": "kier",
+                "spades": "pik"
+            },
+            "ranks": {
+                "ace": "As",
+                "jack": "Walet",
+                "queen": "Dama",
+                "king": "Król"
+            }
+        },
+        "pack-names": {
+            "cards": "Karty do gry",
+            "tarot": "Karty tarota"
+        },
+        "tarot": {
+            "fool": "Głupiec",
+            "magician": "Mag",
+            "highPriestess": "Arcykapłanka",
+            "empress": "Cesarzowa",
+            "emperor": "Cesarz",
+            "hierophant": "Kapłan",
+            "lovers": "Kochankowie",
+            "chariot": "Rydwan",
+            "strength": "Siła",
+            "hermit": "Pustelnik",
+            "wheel": "Koło Fortuny",
+            "justice": "Sprawiedliwość",
+            "hangedMan": "Wisielec",
+            "death": "Śmierć",
+            "temperance": "Umiarkowanie",
+            "devil": "Diabeł",
+            "tower": "Wieża",
+            "star": "Gwiazda",
+            "moon": "Księżyc",
+            "sun": "Słońce",
+            "judgement": "Sąd Ostateczny",
+            "world": "Świat"
+        }
     }
 }
