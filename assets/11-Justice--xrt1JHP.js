@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/11-Justice-06eFb1Xe.jpg`;export{e as default};

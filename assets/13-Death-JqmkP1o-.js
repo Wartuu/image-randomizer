@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/13-Death-Coqb1PZ1.jpg`;export{e as default};

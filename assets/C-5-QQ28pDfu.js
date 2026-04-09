@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/C-5-CoDWDR_x.png`;export{e as default};

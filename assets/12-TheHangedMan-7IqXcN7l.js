@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/12-TheHangedMan-DCiykJ93.jpg`;export{e as default};

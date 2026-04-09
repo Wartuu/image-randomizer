@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/10-WheelOfFortune-ClkXX9DL.jpg`;export{e as default};

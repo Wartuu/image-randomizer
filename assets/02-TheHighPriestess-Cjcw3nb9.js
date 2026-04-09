@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/02-TheHighPriestess-BUUbYNnR.jpg`;export{e as default};

@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/18-TheMoon-BKKbYqAD.jpg`;export{e as default};

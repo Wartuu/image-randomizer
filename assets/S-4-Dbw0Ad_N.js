@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/S-4-UdDh-MjC.png`;export{e as default};

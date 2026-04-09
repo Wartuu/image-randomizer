@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/05-TheHierophant-CA-es7fr.jpg`;export{e as default};

@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/14-Temperance-BuahsUIq.jpg`;export{e as default};

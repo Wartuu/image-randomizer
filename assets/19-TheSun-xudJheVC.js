@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/19-TheSun-BSObUHUy.jpg`;export{e as default};

@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/17-TheStar-CCfvUAbT.jpg`;export{e as default};

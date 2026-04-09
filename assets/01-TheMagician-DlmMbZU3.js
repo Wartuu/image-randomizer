@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/01-TheMagician-TZ42Qy2a.jpg`;export{e as default};

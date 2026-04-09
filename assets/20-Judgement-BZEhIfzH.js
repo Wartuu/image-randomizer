@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/20-Judgement-BSYMGnbV.jpg`;export{e as default};

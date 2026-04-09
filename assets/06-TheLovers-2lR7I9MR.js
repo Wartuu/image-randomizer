@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/06-TheLovers-CED7FOta.jpg`;export{e as default};

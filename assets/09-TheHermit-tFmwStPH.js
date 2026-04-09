@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/09-TheHermit-Ca3RnBdB.jpg`;export{e as default};

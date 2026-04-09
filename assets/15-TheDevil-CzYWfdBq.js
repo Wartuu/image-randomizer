@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/15-TheDevil-CmvqmkUj.jpg`;export{e as default};

@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/21-TheWorld-DtrLeAtL.jpg`;export{e as default};

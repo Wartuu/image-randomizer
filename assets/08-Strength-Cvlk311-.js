@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/08-Strength-DuFwa0ik.jpg`;export{e as default};

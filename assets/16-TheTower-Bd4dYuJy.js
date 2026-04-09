@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/16-TheTower-DhZmrOLG.jpg`;export{e as default};

@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/07-TheChariot-C-JJpSfv.jpg`;export{e as default};

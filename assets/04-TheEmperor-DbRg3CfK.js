@@ -1,0 +1,1 @@
+var e=`/image-randomizer/assets/04-TheEmperor-CMNDVC7Q.jpg`;export{e as default};
