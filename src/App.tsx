@@ -15,7 +15,30 @@ const App = () => {
     return (
         <ThemeProvider theme={theme}>
             <CssBaseline />
-            <Box sx={{ position: "fixed", top: 14, left: 14 }}>
+            <Box
+                sx={{
+                    position: "fixed",
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    zIndex: 9998,
+                    paddingBottom: 5,
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    px: { xs: 1.5, sm: 2 },
+                    py: 1,
+                    bgcolor: "background.paper",
+                    borderBottom: "1px solid",
+                    borderColor: "divider",
+                    boxShadow: "0 2px 12px rgba(0,0,0,0.08)",
+                    backdropFilter: "blur(8px)",
+                    transition: "box-shadow 0.2s ease",
+                    "&:hover": {
+                        boxShadow: "0 4px 20px rgba(0,0,0,0.12)",
+                    },
+                }}
+            >
                 <a href="https://ko-fi.com/M4M318UXVH" target="_blank">
                     <Button
                         variant="contained"
@@ -26,46 +49,37 @@ const App = () => {
                         whileTap={{ scale: 0.9 }}
                         sx={{
                             borderRadius: "999px",
-                            px: 2.5,
-                            py: 1.2,
+                            px: { xs: 1.5, sm: 2.5 },
+                            py: { xs: 0.8, sm: 1.2 },
                             fontWeight: 600,
                             textTransform: "none",
+                            fontSize: { xs: "0.8rem", sm: "0.875rem" },
                         }}
                     >
                         {t("donate")}
                     </Button>
                 </a>
-            </Box>
-            <Box
-                sx={{
-                    position: "fixed",
-                    top: 14,
-                    right: 14,
-                    zIndex: 9998,
-                    display: "flex",
-                    alignItems: "center",
-                    gap: 0.25,
-                    bgcolor: "background.paper",
-                    border: "1px solid",
-                    borderColor: "divider",
-                    borderRadius: "100px",
-                    px: 1,
-                    py: 0.5,
-                    boxShadow: "0 2px 12px rgba(0,0,0,0.08)",
-                    backdropFilter: "blur(8px)",
-                    transition: "box-shadow 0.2s ease",
-                    "&:hover": {
-                        boxShadow: "0 4px 20px rgba(0,0,0,0.12)",
-                    },
-                }}
-            >
-                <LanguageSelector />
-                <Divider
-                    orientation="vertical"
-                    flexItem
-                    sx={{ mx: 0.75, height: 16, alignSelf: "center" }}
-                />
-                <ThemeSelector mode={mode} toggle={toggle} />
+
+                <Box
+                    sx={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: 0.25,
+                        border: "1px solid",
+                        borderColor: "divider",
+                        borderRadius: "100px",
+                        px: 1,
+                        py: 0.5,
+                    }}
+                >
+                    <LanguageSelector />
+                    <Divider
+                        orientation="vertical"
+                        flexItem
+                        sx={{ mx: 0.75, height: 16, alignSelf: "center" }}
+                    />
+                    <ThemeSelector mode={mode} toggle={toggle} />
+                </Box>
             </Box>
 
             <Box
@@ -73,7 +87,8 @@ const App = () => {
                 sx={{
                     minHeight: "100vh",
                     bgcolor: "background.default",
-                    pt: 8,
+                    marginTop: "10",
+                    pt: { xs: 9, sm: 10 },
                     pb: 4,
                 }}
             >
